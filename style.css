@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #C3BBB2;
+    position: relative;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    border-bottom: 1px solid #595959;
+    opacity: 0.8;
+
+}
+#nav img{
+    height: 30px;
+ width: 30%;
+}
+#nav h5{
+    font-size: 20px;
+    font-weight: 100;
+    width: 30%;
+}
+#nav i{
+    width: 30%;
+    text-align: right;
+}
+#elems{
+    /* background-color: red; */
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 60px;
+
+}
+#elem1{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+ 
+ 
+}
+#elem2{
+    width: 25%;
+    height: 100%;
+    /* background-color: rgba(106, 170, 104, 0.87); */
+    border-left: 2px solid #a3a3a3;
+    border-right: 2px solid #a3a3a3;
+    padding: 20px 60px;
+    text-align: center;
+
+}
+#elem3{
+    width: 30%;
+    height: 100%;
+    /* background-color: rgba(130, 192, 228, 0.829); */
+}
+#elem1 #img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+}
+#elem3 #img-div{
+    height: 60%;
+    width: 100%;
+    overflow: hidden;
+
+}
+#img-div img{
+    height: 100%;width: 100%;
+    object-fit: cover;
+    transition: all ease 0.4s;
+}
+#img-div:hover img{
+    scale: 1.1;
+    
+}
+#elem1 h4{
+    font-family: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
