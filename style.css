@@ -1,3 +1,19 @@
+@font-face {
+    font-family: canopee;
+    src: url(./assets/Canopee.ttf);
+}
+@font-face {
+    font-family: domaine;
+    src: url(./assets/Domaine.ttf.ttf);
+}
+
+@font-face {
+    font-family: editorial;
+    src: url(./assets/Editorial.ttf);
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -14,13 +30,13 @@ html, body{
     position: relative;
 }
 #nav{
-    height: 100px;
+    height: 70px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
-    border-bottom: 1px solid #595959;
+    border-bottom: 1px solid #76716C;
     opacity: 0.8;
 
 }
@@ -32,18 +48,22 @@ html, body{
     font-size: 20px;
     font-weight: 100;
     width: 30%;
+    color: #1C1C19;
 }
 #nav i{
     width: 30%;
     text-align: right;
+    color: #1C1C19;
+    
 }
 #elems{
     /* background-color: red; */
-    height: 430px;
+    height: 360px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 40px 60px;
+    
 
 }
 #elem1{
@@ -54,29 +74,34 @@ html, body{
  
 }
 #elem2{
-    width: 25%;
+    width: 30%;
     height: 100%;
     /* background-color: rgba(106, 170, 104, 0.87); */
-    border-left: 2px solid #a3a3a3;
-    border-right: 2px solid #a3a3a3;
-    padding: 20px 60px;
+    border-left: 1px solid #76716C;
+    border-right: 1px solid #76716C;
+    padding: 10px 10px;
     text-align: center;
+    margin:30px;
 
 }
 #elem3{
     width: 30%;
     height: 100%;
+ 
     /* background-color: rgba(130, 192, 228, 0.829); */
 }
 #elem1 #img-div{
-    height: 60%;
+    height: 55%;
     width: 100%;
     overflow: hidden;
+    border: 1px #1d1d1b solid ;
 }
 #elem3 #img-div{
-    height: 60%;
+    height: 55%;
     width: 100%;
     overflow: hidden;
+    border: 1px #1d1d1b solid ;
+
 
 }
 #img-div img{
@@ -89,7 +114,77 @@ html, body{
     
 }
 #elem1 h4{
-    font-family: 20px;
+    font-size: 22px;
     margin-top: 20px;
     margin-bottom: 20px;
+    font-family: canopee ;
+    color: #1C1C19;
 }
+#elem1 h4 span{
+    background-color: #B63C12;
+    color: #C3BBB2;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 4px;
+    border-radius: 5px; 
+    margin-left: 5px;
+
+}
+#elem1 p{
+    font-family: editorial;
+    font-size: 17px;
+    font-weight: 100;
+    color: #1d1d1b;
+}
+#elem3 h4{
+    font-size: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: canopee ;
+    color: #1C1C19;
+}
+#elem3 h4 span{
+    background-color: #B63C12;
+    color: #C3BBB2;
+    font-weight: 100;
+    font-size: 17px;
+    padding: 4px;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+#elem3 p{
+    font-family:editorial;
+    font-size: 16px;
+    font-weight: 100;
+    color: #1d1d1b;
+}
+#elem2 h2{
+  font-family: canopee;
+  font-size: 60px;
+  font-weight: 100;
+  letter-spacing: -2px;
+  margin: 10px;
+
+}
+#elem2 h3{
+    font-family: domaine;
+    font-size: 40px;
+    font-weight: 80;
+    color: #1d1d1b;
+    letter-spacing: -2px;
+    line-height: 40px;
+    /* margin-top: 20px; */
+    margin: 20px 10px;
+  }
+  #elem2 h6{
+    font-family: editorial;
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 0;
+  }
+  #elem2 h6 span{
+    font-family: canopee;
+    font-size: 22px;
+    font-weight: 100;
+  }
